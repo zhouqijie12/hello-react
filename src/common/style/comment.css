@@ -1,0 +1,77 @@
+.clearfix:after{
+    clear:both;
+    display: block;
+    visibility: hidden;
+    content:"";
+    height:0;
+}
+
+ul,ol{
+    list-style:none;
+}
+.clearfix {
+    zoom:1;
+}
+
+.comment-warp{
+    width:800px;
+    margin: auto;
+    border:1px solid #ccc;
+    padding:15px;
+}
+
+.comment-warp h2{
+    color:#000;
+    font-size:30px;
+    border-bottom:1px solid #f1f1f1;
+    padding:10px 0;
+}
+
+.comment-warp .date{
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+}
+.commen-list{
+    margin:20px 0 0;
+}
+.commen-list ul li{
+    margin:20px 0 0;
+}
+.commen-list ul li ul{
+    margin:20px 0 0 15px;
+}
+.commen-list .com-pic,
+.commen-list .com-text{
+    float:left;
+}
+
+.commen-list .com-pic{
+    margin:5px 10px 0 0;
+}
+
+.commen-list .com-pic img{
+    width:50px;
+    height:50px;
+}
+
+.commen-list .com-text{
+    font-size:14px;
+}
+.commen-list .com-text b{
+    font-size:16px;
+    color:#333;
+}
+.commen-list .com-text em{
+    color:#999;
+    margin-left:5px;
+    font-size:12px;
+}
+.commen-list .com-text p{
+    color:#333;
+    margin: 10px 0;
+}
+
+.commen-list .com-text span{
+    color:#999;
+}
